@@ -1,3 +1,6 @@
+package ics;
+import org.jetbrains.annotations.Contract;
+
 import java.util.Scanner;
 
 public class Prime {
@@ -8,6 +11,7 @@ public class Prime {
 
     }
 
+    @Contract(pure = true)
     private static boolean isPrime(int a){
         if(a == 1 || a == 0){
             return false;

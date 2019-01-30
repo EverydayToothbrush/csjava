@@ -1,4 +1,6 @@
+package ics;
 import java.util.Scanner;
+
 public class Pyramid {
     public static void main(String[] args) {
         // Upgrade the Pyramid
